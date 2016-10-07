@@ -1,12 +1,12 @@
-![gif](https://github.com/jaikydota/Android-FaceLoadingView/blob/master/Demo/GIF.gif)  
+![gif](https://github.com/jaikydota/Android-FaceView/blob/master/Demo/GIF.gif)  
 
 
 # Android-FaceView
-This is a bottom replay Dialog for Android.<br>
-If you need to know about faceview information, please click here: https://github.com/jaikydota/Android-ReplayDialog<br>
+This is a Emoticon for Android.<br>
+If you need to know about replay dialog information, please click here: https://github.com/jaikydota/Android-ReplayDialog<br>
 
-Chinese blog address: http://blog.csdn.net/jaikydota163/article/details/52098851<br>
-项目中文博客地址：http://blog.csdn.net/jaikydota163/article/details/52098851<br>
+Chinese blog address: http://blog.csdn.net/jaikydota163/article/details/52098873<br>
+项目中文博客地址：http://blog.csdn.net/jaikydota163/article/details/52098873<br>
 
 
 ###*About Information*
