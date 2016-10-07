@@ -9,12 +9,28 @@ Chinese blog address: http://blog.csdn.net/jaikydota163/article/details/52098873
 项目中文博客地址：http://blog.csdn.net/jaikydota163/article/details/52098873<br>
 
 ###*Using*
+Add to your layout xml:
+```
+<com.jaiky.test.faceview.FaceView
+    android:id="@+id/face_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone" >
+</com.jaiky.test.faceview.FaceView>
+```
+
+Binding to your code:
 ```
 FaceView faceView = (FaceView) findViewById(R.id.face_view);
 //binding your EditText
 faceView.setEdit(etContent);
 //binding your call face bar Button
 faceView.setBtnView(ivFace);
+```
+
+showing TextView:
+```
+TextView.setText(Html.fromHtml(replyDialog.getContent(), new FaceImageGetter(context), null));
 ```
 
 ###*About Information*
