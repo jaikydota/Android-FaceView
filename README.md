@@ -8,6 +8,12 @@ If you need to know about replay dialog information, please click here: https://
 Chinese blog address: http://blog.csdn.net/jaikydota163/article/details/52098873<br>
 项目中文博客地址：http://blog.csdn.net/jaikydota163/article/details/52098873<br>
 
+###*Using*
+FaceView faceView = (FaceView) findViewById(R.id.face_view);
+//binding your EditText
+faceView.setEdit(etContent);
+//binding your call face bar Button
+faceView.setBtnView(ivFace);
 
 ###*About Information*
 Hello my friends!<br>
