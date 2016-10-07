@@ -22,13 +22,13 @@ Add to your layout xml:
 Binding to your code:
 ```
 FaceView faceView = (FaceView) findViewById(R.id.face_view);
-//binding your EditText
+//binding the faceview edit EditText
 faceView.setEdit(etContent);
-//binding your call face bar Button
+//bing call to the FaceBar Button
 faceView.setBtnView(ivFace);
 ```
 
-showing TextView:
+Showing TextView:
 ```
 TextView.setText(Html.fromHtml(replyDialog.getContent(), new FaceImageGetter(context), null));
 ```
