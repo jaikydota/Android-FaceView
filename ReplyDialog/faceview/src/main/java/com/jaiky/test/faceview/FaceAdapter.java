@@ -10,8 +10,9 @@ import android.widget.ImageView;
 public class FaceAdapter extends BaseAdapter {
 
 	private Context m_Context;
-	int facepage_num;
-	int face_num;
+	private int facepage_num;
+	private int face_num;
+	private final int FACE_COUNT = 21;
 
 	public FaceAdapter(Context context, int facepage_num) {
 		m_Context = context;
@@ -20,7 +21,7 @@ public class FaceAdapter extends BaseAdapter {
 
 	@Override
 	public int getCount() {
-		return 21;
+		return FACE_COUNT;
 	}
 
 	@Override
@@ -48,7 +49,7 @@ public class FaceAdapter extends BaseAdapter {
 		} else {
 			holder = (ViewHolder) convertView.getTag();
 		}
-		face_num = (facepage_num - 1) * 21 + position;
+		face_num = (facepage_num - 1) * FACE_COUNT + position;
 		holder.m_imgFace.setImageResource(FaceManager.getInstance().getFace(face_num));
 		holder.m_imgFace.setTag(face_num);
 
