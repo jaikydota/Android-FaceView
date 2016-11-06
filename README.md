@@ -35,7 +35,7 @@ TextView.setText(Html.fromHtml(replyDialog.getContent(), new FaceImageGetter(con
 
 ###*About Information*
 Hello my friends!<br>
-This is a very simple small project, so I don't upload it to 'jcenter' or 'Maven Center'.<br>
+This is a very simple small project, so I don't upload it to 'jcenter' or 'Maven Central'.<br>
 Please download it and deploy to your Android Studio.<br>
 Using this demo, you will know how to achieve.<br>
 And my english is very bad, so I can only write so many.<br>
