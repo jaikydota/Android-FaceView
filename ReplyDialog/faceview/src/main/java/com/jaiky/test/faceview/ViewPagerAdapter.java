@@ -31,13 +31,13 @@ public class ViewPagerAdapter extends PagerAdapter {
     }
 
     @Override
-    public void destroyItem(View arg0, int arg1, Object arg2) {
-        ((ViewPager)arg0).removeView(pageViews.get(arg1));
+    public void destroyItem(ViewGroup arg0, int arg1, Object arg2) {
+        arg0.removeView(pageViews.get(arg1));
     }
 
     @Override
-    public Object instantiateItem(View arg0, int arg1) {
-        ((ViewPager)arg0).addView(pageViews.get(arg1));
+    public Object instantiateItem(ViewGroup arg0, int arg1) {
+        arg0.addView(pageViews.get(arg1));
         return pageViews.get(arg1);
     }
 }
