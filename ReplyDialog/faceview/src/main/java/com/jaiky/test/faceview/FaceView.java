@@ -177,7 +177,7 @@ public class FaceView extends LinearLayout implements OnPageChangeListener,
 			m_vpFace.setAdapter(adapter);
 			m_vpFace.setCurrentItem(1);
 		}
-		m_vpFace.setOnPageChangeListener(this);
+		m_vpFace.addOnPageChangeListener(this);
 		initDotBar();
 
 	}
