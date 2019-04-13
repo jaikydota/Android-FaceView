@@ -66,10 +66,7 @@ public class FaceImageGetter implements ImageGetter {
     }
 
     public boolean isEmpty(String str) {
-        if (str == null || str.length() == 0)
-            return true;
-        else
-            return false;
+        return str == null || str.length() == 0;
     }
 
     public int dip2px(Context context, float dpValue) {
